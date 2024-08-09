@@ -3,7 +3,7 @@
 header{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(to left, #fff 80%,#c3f5ff 20%);
+    background-image: linear-gradient(to left,#EFD3D7 80%, #F1FFE7 20%);
 }
 .navsection{
     width: 100%;
@@ -12,11 +12,11 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(to top, #fff 80%,#c3f5ff 20%);
+    background-image: linear-gradient(to top, #fff 80%,#7B6D8D 20%);
 }
 .logo{
     width: 40%;
-    color: #fff;
+    color: #070101ab;
     background-image: linear-gradient(#bbbcc4 40%,#9c8bbe 60%);
     padding-left: 100px;
     box-sizing: border-box;
@@ -25,7 +25,7 @@ header{
 }
     .logo i {
         font-size: 2.5rem; /* Adjust icon size */
-        color: #fff; /* Icon color */
+        color:black; /* Icon color */
         margin-right: 10px; /* Space between icon and text */
         
     }
@@ -91,4 +91,31 @@ main{
 .leftside h3{
     font-size: 40px;
     margin-bottom: 20px;
+}
+.leftside h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    position: relative;
+    font-weight: 400;
+}
+.leftside h3:after{
+    content: "";
+    width: 450px;
+    height: 3px;
+    position: absolute;
+    top: 43%;
+    left: 15%;
+    background-color:grey;
+}
+.leftside h1{
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: blueviolet;
+}
+.leftside h2{
+    margin-bottom: 35px;
+    font-weight: 500;
+    word-spacing: 4px;
 }
