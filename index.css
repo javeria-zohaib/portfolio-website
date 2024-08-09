@@ -75,7 +75,10 @@ main{
     justify-content: center;
     align-items: center;
 }
-.rightside{}
+.rightside{border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+    background-color: #8b94ca;
+    
+}
 .rightside img{
     max-width: 400px;
     height: auto;
@@ -87,5 +90,5 @@ main{
 }
 .leftside h3{
     font-size: 40px;
-    margin-bottom: ;
+    margin-bottom: 20px;
 }
